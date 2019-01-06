@@ -21,4 +21,4 @@ This mod has *only* been tested with [RogueTech](https://www.nexusmods.com/battl
 This mod may interfere with campaign missions; although it shouldn't in theory.   
 Use at your own risk.
 
-![Gif](../../../screenshots/gif.gif)
+![](./screenshots/gif.gif)
