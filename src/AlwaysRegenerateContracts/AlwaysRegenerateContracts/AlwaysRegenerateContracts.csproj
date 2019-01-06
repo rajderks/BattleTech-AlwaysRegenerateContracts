@@ -57,6 +57,7 @@
   <ItemGroup>
     <Content Include="screenshots\1.png" />
     <Content Include="screenshots\2.png" />
+    <Content Include="screenshots\gif.gif" />
     <Content Include="screenshots\loading.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
