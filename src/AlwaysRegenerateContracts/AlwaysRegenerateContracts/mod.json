@@ -1,0 +1,11 @@
+{
+    "Name": "AlwaysRegenerateContracts",
+    "Enabled": true,
+    "Version": "1.0",
+    "Description": "Always regenerates contracts when entering the selection screen",
+    "Author": "Roy Derks",
+    "Website": "https://www.github.com/rajderks/battletech-AlwaysRegenerateContracts",
+    "Contact": "https://www.github.com/rajderks/battletech-AlwaysRegenerateContracts",
+	"DLL": "AlwaysRegenerateContracts.dll",
+	"Settings":{}
+}
