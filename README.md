@@ -1,5 +1,5 @@
 # BT: AlwaysRegenerateContracts
-This is a mod for *BattleTech* that regenerates the contracts whenever you enter the contract selection screen during a career playthrough.
+This is a mod for [BattleTech](https://store.steampowered.com/app/637090/BATTLETECH/) that regenerates the contracts whenever you enter the contract selection screen during a career playthrough.
 
 ## Prerequisites
 
