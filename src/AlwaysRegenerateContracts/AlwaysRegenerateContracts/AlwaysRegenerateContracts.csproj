@@ -46,6 +46,7 @@
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logger.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="SGRoomController_CmdCenter_StartContractScreen_Patch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,4 +62,8 @@
     <Content Include="screenshots\loading.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(TargetDir)$(TargetFileName)" "$(BattleTechGame)\Mods\AlwaysRegenerateContracts\" /y
+xcopy "$(ProjectDir)mod.json" "$(BattleTechGame)\Mods\AlwaysRegenerateContracts\" /y</PostBuildEvent>
+  </PropertyGroup>
 </Project>
